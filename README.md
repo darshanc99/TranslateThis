@@ -3,7 +3,7 @@
 
 [![HitCount](http://hits.dwyl.io/darshanc99/TranslateThis.svg)](http://hits.dwyl.io/darshanc99/TranslateThis)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![made-with-android-studio](https://img.shields.io/badge/Made%20with-Android-Studio-1f425f.svg)](https://developer.android.com/studio)
+[![made-with-androidstudio](https://img.shields.io/badge/Made%20with-Android-Studio-1f425f.svg)](https://developer.android.com/studio)
 [![made-with-MLKit](https://img.shields.io/badge/Made%20with-MLKit-1f425f.svg)](https://firebase.google.com/docs/ml-kit/android/translate-text)
 
 </div>
