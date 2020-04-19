@@ -7,6 +7,7 @@
 [![made-with-MLKit](https://img.shields.io/badge/Made%20with-MLKit-1f425f.svg)](https://firebase.google.com/docs/ml-kit/android/translate-text)
 
 </div>
+<hr>
 # TranslateThis: Android App developed for MCAN Lab
 We used Firebase ML Kit text translate for Language Translation.
 <hr>
