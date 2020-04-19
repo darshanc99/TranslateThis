@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Source Script"
+        android:textSize="25dp"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+    <Spinner
+        android:id="@+id/sourceLang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginLeft="10dp"
+        android:entries="@array/language"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="You will see input here"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:text="Target Script"
+        android:textSize="25dp"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+    <Spinner
+        android:id="@+id/targetLang"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginLeft="10dp"
+        android:entries="@array/language"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/outputText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="You will see Translation here"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <Button
+        android:id="@+id/speakButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:backgroundTint="#000000"
+        android:fontFamily="monospace"
+        android:text="Tap and Speak"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

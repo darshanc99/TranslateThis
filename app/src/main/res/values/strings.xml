@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TranslateThis</string>
+    <string-array name="language">
+        <item name="English">English</item>
+        <item name="Hindi">Hindi</item>
+        <item name="Marathi">Marathi</item>
+    </string-array>
+</resources>
