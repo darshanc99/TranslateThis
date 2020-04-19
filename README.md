@@ -8,7 +8,7 @@
 
 </div>
 <hr>
-# TranslateThis: Android App developed for MCAN Lab
+<h3>TranslateThis: Android App developed for MCAN Lab</h3>
 We used Firebase ML Kit text translate for Language Translation.
 <hr>
 <b>Ask for Permission to Record Audio</b>
